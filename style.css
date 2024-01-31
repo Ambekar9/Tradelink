@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+  min-height: 100vh;
+  background: url("../images/nature.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+header{
+  position: absolute;
+  width: 100%;
+  min-height: 66px;
+  background: #f8fcff;
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+header .logo{
+  color: #7bb8e7;
+  font-size: 1.75em;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+
